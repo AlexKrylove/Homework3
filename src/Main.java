@@ -58,6 +58,23 @@ public class Main {
         int middleDays = (dayOnWeght500+dayOnWeight250)/2;
         System.out.println("В среднем для похудения может понадобиться " + middleDays + " день");
 
+        System.out.println("Task8");
+        int mariaSalary = 67760;
+        int denisSalary = 83690;
+        int kristinaSalary = 76230;
+        int mariaNewSalary = (int) (mariaSalary * 1.1);
+        int denisNewSalary = (int) (denisSalary * 1.1);
+        int kristinaNewSalary = (int) (kristinaSalary * 1.1);
+        int mariaSalaryYear = mariaSalary*12;
+        int denisSalaryYear = denisSalary*12;
+        int kristinaSalaryYear = kristinaSalary*12;
+        int mariaNewSalaryYear = mariaNewSalary*12;
+        int denisNewSalaryYear = denisNewSalary*12;
+        int kristinaNewSalaryYear = kristinaNewSalary*12;
+        System.out.println("Маша теперь получает " + mariaNewSalary + " рублей. Годовой доход вырос на " + (mariaNewSalaryYear-mariaSalaryYear) + " рублей.");
+        System.out.println("Денис теперь получает " + denisNewSalary + " рублей. Годовой доход вырос на " + (denisNewSalaryYear-denisSalaryYear) + " рублей.");
+        System.out.println("Кристина теперь получает " + kristinaNewSalary + " рублей. Годовой доход вырос на " + (kristinaNewSalaryYear-kristinaSalaryYear) + " рублей.");
+
 
 
 
