@@ -42,5 +42,12 @@ public class Main {
         byte summBrown = 4*20;
         System.out.println("В школе, где " + klas + " классов, нужно " + summWhite + " банок белой краски и " + summBrown + " банок коричневой краски");
 
+        System.out.println("Task6");
+        float bananas = 5*80;
+        float milk = 2*105;
+        float icecream = 2*100;
+        float eggs = 4*70;
+        float sumWheight = (bananas + milk + icecream + eggs)/1000;
+        System.out.println("Общий вес спорт-завтрака " + sumWheight + " кг!");
     }
 }
