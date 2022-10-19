@@ -36,11 +36,11 @@ public class Main {
         System.out.println("За 3 дня машина произвела бутылок " + days + " штук");
         System.out.println("За месяц машина произвела бутылок " + month + " штук");
 
-
-
-
-
-
+        System.out.println("Task5");
+        byte klas = 120/6;
+        byte summWhite = 2*20;
+        byte summBrown = 4*20;
+        System.out.println("В школе, где " + klas + " классов, нужно " + summWhite + " банок белой краски и " + summBrown + " банок коричневой краски");
 
     }
 }
