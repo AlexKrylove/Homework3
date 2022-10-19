@@ -49,5 +49,17 @@ public class Main {
         float eggs = 4*70;
         float sumWheight = (bananas + milk + icecream + eggs)/1000;
         System.out.println("Общий вес спорт-завтрака " + sumWheight + " кг!");
+
+        System.out.println("Task7");
+        short dayOnWeight250 = 7000/250;
+        short dayOnWeght500 = 7000/500;
+        System.out.println("Если терять по 250 грамм в день, то " + dayOnWeight250 + " дней уйдет на похудение");
+        System.out.println("Если терять по 500 грамм в день, то " + dayOnWeght500 + " дней уйдет на похудение");
+        int middleDays = (dayOnWeght500+dayOnWeight250)/2;
+        System.out.println("В среднем для похудения может понадобиться " + middleDays + " день");
+
+
+
+
     }
 }
