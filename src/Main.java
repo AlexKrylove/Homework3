@@ -26,6 +26,18 @@ public class Main {
         byte EA = 30;
         System.out.println("На каждого ученика рассчитано "+ 480/(LP+AS+EA) + " листов бумаги");
 
+        System.out.println("Task4");
+        short minutes = 8*20;
+        short day1 = 24*60;
+        short days = 24*3*60;
+        int month = 30*24*60;
+        System.out.println("За 20 минут машина произвела бутылок " + minutes + " штук");
+        System.out.println("За день машина произвела бутылок " + day1 + " штук");
+        System.out.println("За 3 дня машина произвела бутылок " + days + " штук");
+        System.out.println("За месяц машина произвела бутылок " + month + " штук");
+
+
+
 
 
 
