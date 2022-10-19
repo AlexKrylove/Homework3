@@ -20,6 +20,13 @@ public class Main {
         short g1 = 27897;
         byte h1 = 67;
 
+        System.out.println("Task3");
+        byte LP = 23;
+        byte AS = 27;
+        byte EA = 30;
+        System.out.println("На каждого ученика рассчитано "+ 480/(LP+AS+EA) + " листов бумаги");
+
+
 
 
 
