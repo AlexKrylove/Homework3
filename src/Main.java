@@ -9,5 +9,26 @@ public class Main {
         System.out.println("Значение переменной b с типом short равно " + b);
         System.out.println("Значение переменной c с типом int равно " + c);
         System.out.println("Значение переменной d с типом long равно " + d);
+
+        System.out.println("Task2");
+        float a1 = 27.12f;
+        long  b1 = 987678965549L;
+        float c1 = 2.786f;
+        boolean d1 = false;
+        short e1 = 569;
+        short f1 = -159;
+        short g1 = 27897;
+        byte h1 = 67;
+
+        System.out.println("Task3");
+        byte LP = 23;
+        byte AS = 27;
+        byte EA = 30;
+        System.out.println("На каждого ученика рассчитано "+ 480/(LP+AS+EA) + " листов бумаги");
+
+
+
+
+
     }
 }
